@@ -1,0 +1,4 @@
+font-family: 'Quicksand', sans-serif;
+#3D3E3E; header color
+background color; #fecc18;
+heading title: #3D3E3E;

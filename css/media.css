@@ -1,0 +1,294 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* body start */
+    body {
+    margin-top: 90px;
+}
+/* header start */
+.logo{
+font-size: 30px;
+}
+.menu ul li a {
+font-size: 18px;
+margin: 8px 0px;
+}
+.c_nav_b {
+background-color: #fecc18;
+}
+/* slider start */
+.slider{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.c_ind{
+bottom: -75px;
+}
+.c_ind [data-bs-target]{
+width: 13px;
+height: 13px;
+}
+.s_text{
+margin-top: 0px;
+}
+.s_text h1{
+font-size: 24px;
+
+}
+.s_text h2{
+margin: 10px 0;
+font-size: 16px;
+}
+.s_text p{
+margin-bottom: 20px;
+
+}
+.slider-btn {
+    font-size: 16px;
+    padding: 12px 25px;
+}
+
+/* about start */
+.about {
+    padding: 50px 0;
+}
+.about-p p {
+    margin-bottom: 40px;
+}
+.about-title1 {
+    font-size: 26px;
+    margin-top: 20px;
+}
+.about-title h1::before {
+    width: 50px;
+    right: 78%;
+}
+.about-title h1::after {
+    width: 50px;
+    left: 78%;
+}
+/* service */
+.sercives {
+    padding: 50px 0;
+}
+.services-item {
+    padding-bottom: 20px;
+}
+.services-title h1::after {
+    width: 40px;
+    left: 88%;
+}
+.services-title h1::before {
+    width: 40px;
+    right: 88%;
+}
+
+/* features */
+.features {
+    padding: 50px 0;
+}
+.features-item {
+    padding-bottom: 30px;
+}
+
+.features-title h1::before {
+    width: 0px;
+    top: 0;
+    right: 0;
+}
+.features-title h1::after {
+    width: 0px;
+    top: 0;
+    left: 0;
+}
+/* contact */
+.contact {
+    padding: 50px 0;
+}
+/* footer */
+.footer1 {
+    padding: 50px 0;
+}
+.footer-item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer1-title p {
+    font-size: 16px;
+}
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+.menu ul li a {
+font-size: 18px;
+margin: 8px 0px;
+}
+.c_nav_b {
+background-color: #fecc18;
+}
+/* slider start */
+.slider {
+padding-top: 40px;
+}
+/* about start */
+.about {
+padding: 50px 0;
+}
+.about-title h1::after{
+left: 68%;
+}
+.about-title h1::before{
+right:68%;
+}
+/* service */
+.services-title h1::before {
+    width: 100px;
+    right: 72%;
+}
+.services-title h1::after{
+    width: 100px;
+    left: 72%;
+}
+
+/* features */
+.features-title h1::before {
+    width: 100px;
+    right: 78%;
+}
+.features-title h1::after{
+    width: 100px;
+    left: 78%;
+}
+.features-item {
+    margin-bottom: 50px;
+}
+
+/* footer */
+.footer-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start */
+.menu ul li a {
+font-size: 18px;
+margin: 8px 0px;
+}
+.c_nav_b {
+background-color: #fecc18;
+}
+/* slider start */
+.slider {
+padding-top: 0px;
+}
+.s_img {
+margin-top: 130px;
+}
+
+/* our service */
+.services-item {
+    padding-bottom: 20px;
+}
+.services-p p {
+    padding: 0 110px;
+}
+/* features  */
+.features-item {
+    padding-bottom: 30px;
+}
+/* contact */
+.contact-title p {
+    padding: 0 179px;
+}
+/* footer */
+.footer-item {
+    text-align: center;
+    margin-top: 50px;
+}
+.footer1 {
+    padding: 40px 0 80px 0;
+}
+
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* header start*/
+.logo {
+font-size: 34px;}
+.menu ul li a {
+font-size: 18px;
+margin: 0 8px;}
+/* about start */
+/* about start */
+.about {
+padding: 50px 0;
+}
+.about-title h1::after{
+left: 68%;
+}
+.about-title h1::before{
+right:68%;
+}
+.about-p p {
+margin-bottom: 50px;
+}
+
+/* our service start */
+.services-title h1::before {
+    right: 75%;
+}
+.services-title h1::after {
+    left: 75%;
+}
+.ser-title h2 {
+    font-size: 22px;
+}
+/* features start */
+.features-title h1::before {
+    right: 82%;
+}
+.features-title h1::after {
+    left: 82%;
+}
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/* about start */
+.about-title h1::after{
+left: 65%;
+}
+.about-title h1::before{
+right:65%;
+}
+
+/* our service start */
+.services-title h1::before {
+    right: 71%;
+}
+.services-title h1::after {
+    left: 71%;
+}
+.ser-title h2 {
+    font-size: 22px;
+}
+/* features start */
+.features-title h1::before {
+    right: 77%;
+}
+.features-title h1::after {
+    left: 77%;
+}
+.features-title h2 {
+    font-size: 23px;
+}
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
